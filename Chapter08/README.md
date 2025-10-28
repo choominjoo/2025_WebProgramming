@@ -199,6 +199,8 @@ document.body.appendChild(newDiv);
 
 ---
 
-Q1. innerHTML과 textContent의 차이는 무엇이며, 언제 각각 사용하는 게 좋을까?
-Q2. document.write()를 잘못 사용할 경우 어떤 문제가 발생할까?
-Q3. DOM 트리 조작 시 효율성과 안정성을 높이기 위한 방법은 무엇일까?
+**Q1.** `innerHTML`과 `textContent`의 차이는 무엇이며, 언제 각각 사용하는 게 좋을까? 
+
+**Q2.** `document.write()`를 잘못 사용할 경우 어떤 문제가 발생할까?
+
+**Q3.** DOM 트리 조작 시 효율성과 안정성을 높이기 위한 방법은 무엇일까?
