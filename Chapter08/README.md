@@ -50,9 +50,20 @@
 ---
 
 ## 🧩 DOM 객체의 구성 요소
-구성 요소	설명
-property	태그 속성(attribute)을 반영
-method	DOM 조작용 함수
-collection	자식 노드들의 집합 (배열 형태)
-event listener	이벤트 발생 시 실행되는 함수
-CSS3 style	태그의 스타일 정보를 제어
+| 구성 요소 | 설명 |
+|-----------|------|
+| property | 태그 속성(attribute)을 반영 |
+| method | DOM 조작용 함수 |
+| collection | 자식 노드들의 집합 (배열 형태) |
+| event listener | 이벤트 발생 시 실행되는 함수 |
+| CSS3 style | 태그의 스타일 정보를 제어 |
+
+```java script
+let p = document.getElementById("firstP");
+p.style.color = "red";       // 글자 색 변경
+p.innerHTML = "새 텍스트";  // 콘텐츠 변경
+
+```
+---
+
+## 🔍 DOM 탐색 관계
