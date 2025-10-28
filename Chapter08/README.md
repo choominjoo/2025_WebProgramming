@@ -111,7 +111,7 @@ p.innerHTML = "나의 <img src='puppy.png'> 강아지";
 
 ## 📘 document 객체
 - HTML 문서 전체를 대표하는 객체
-- DOM 트리의 루트(root) 역할
+- DOM 트리의 **루트(root)** 역할
 - 접근 방법: `window.document` 또는 `document`
 
 | 주요 프로퍼티 | 설명 |
@@ -159,7 +159,7 @@ document.writeln("줄바꿈 포함 출력");
 ```
 
 ⚠️ 주의:
-`document.write()`는 문서가 완성된 후 실행하면 기존 내용이 모두 삭제됨
+`document.write()`는 문서가 완성된 후 실행하면 **기존 내용이 모두 삭제됨**
 
 ---
 
@@ -192,10 +192,10 @@ document.body.appendChild(newDiv);
 ---
 
 ## 🧠 핵심 정리
-- HTML의 각 태그는 DOM 객체로 표현되어 제어 가능
-- DOM 트리는 document 객체를 루트로 구성
+- HTML의 각 태그는 **DOM 객체**로 표현되어 제어 가능
+- DOM 트리는 **document** 객체를 루트로 구성
 - `innerHTML`, `style`, `this` 등을 통해 동적 콘텐츠 제어 가능
-- `createElement()` / `appendChild()`로 새 요소를 추가하고, `removeChild()`로 요소를 삭제 가능
+- `createElement()` / `appendChild()`로 **새 요소를 추가**하고, `removeChild()`로 **요소를 삭제** 가능
 
 ---
 
